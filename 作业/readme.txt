@@ -1,0 +1,5 @@
+源数据重新保存为jdt.xlsx
+主程序是4ex_select.py
+运行得到结果保存为4ex_by_day.xlsx和4ex_by_hour.xlsx
+画图程序是4ex_plot.py
+所得图形保存为Figure_1.png和Figure_2.png

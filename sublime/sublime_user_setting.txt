@@ -1,0 +1,97 @@
+{
+	"auto_complete": true,
+	"auto_complete_commit_on_tab": true,
+	"auto_match_enabled": true,
+	"bold_folder_labels": true,
+	"caret_style": "solid",
+	"color_scheme": "Packages/Theme - Flatland/Flatland Dark.tmTheme",
+	"detect_indentation": true,
+	"draw_indent_guides": true,
+	"ensure_newline_at_eof_on_save": true,
+{
+	"bold_folder_labels": true,
+	"caret_style": "solid",
+	"color_scheme": "Packages/Theme - Flatland/Flatland Dark.tmTheme",
+	"theme": "Flatland Dark.sublime-theme",
+
+	"font_face": "Menlo",
+	"font_size": 15,
+	"font_options":
+	[
+		"no_round"
+	],
+
+	"line_padding_top": 1,
+	"line_padding_bottom": 1,
+	"highlight_line": true,
+	"highlight_modified_tabs": true,
+	"line_numbers": true,
+	// 是否显示行号边栏
+	"gutter": true,
+	// 行号边栏和文字的间距
+	"margin": 4,
+	// 是否显示代码折叠按钮
+	"fold_buttons": true,
+	"tab_size": 4,
+	"translate_tabs_to_spaces": true,
+
+	// 自动匹配引号，括号等
+	"auto_match_enabled": true,
+	"auto_complete": true,
+	"auto_complete_commit_on_tab": true,
+	"word_wrap": true,
+
+	"match_tags": true,
+	"match_selection": true,
+	"match_brackets": true,
+	"match_brackets_angle": false,
+	"match_brackets_braces": true,
+	"match_brackets_content": true,
+	"match_brackets_square": true,
+
+	"draw_white_space": "all",
+	"show_tab_close_buttons": true,
+	"bold_folder_labels": true,
+	"show_full_path": true,
+	"show_minimap": false,
+
+	"detect_indentation": true,
+	"draw_indent_guides": true,
+	"ensure_newline_at_eof_on_save": true,
+	"file_exclude_patterns":
+	[
+		"*.DS_Store",
+		"*.pyc",
+		"*.git"
+	],
+	"find_selected_text": true,
+	"fold_buttons": true,
+	"folder_exclude_patterns":
+	[
+	],
+
+	"ignored_packages":
+	[
+		"Vintage"
+	],
+	"indent_to_bracket": true,
+
+
+	"new_window_settings":
+	{
+		"hide_open_files": true,
+		"show_tabs": true,
+		"side_bar_visible": true,
+		"status_bar_visible": true
+	},
+	"remember_open_files": true,
+	"remember_open_folders": true,
+	"save_on_focus_lost": true,
+	"scroll_past_end": false,
+
+	"trim_trailing_white_space_on_save": true,
+	"use_simple_full_screen": true,
+	"vintage_start_in_command_mode": false,
+	"wide_caret": true,
+
+}

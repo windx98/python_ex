@@ -1,0 +1,132 @@
+{
+	"auto_complete": true,
+	"auto_complete_commit_on_tab": false,
+	"auto_match_enabled": true,
+	"bold_folder_labels": true,
+	"caret_style": "solid",
+	"color_scheme": "Packages/Theme - Flatland/Flatland Dark.tmTheme",
+	"detect_indentation": true,
+	"draw_indent_guides": true,
+	"ensure_newline_at_eof_on_save": true,
+	"file_exclude_patterns":
+	[
+		"*.DS_Store",
+		"*.pyc",
+		"*.git"
+	],
+	"find_selected_text": true,
+	"fold_buttons": true,
+	"folder_exclude_patterns":
+	[
+	],
+	"font_face": "Menlo",
+	"font_options":
+	[
+		"no_round"
+	],
+	"font_size": 15,
+	"highlight_line": true,
+	"highlight_modified_tabs": true,
+	"ignored_packages":
+	[
+		"Vintage"
+	],
+	"indent_to_bracket": true,
+	"line_padding_bottom": 0,
+	"line_padding_top": 0,
+	"match_brackets": true,
+	"match_brackets_angle": false,
+	"match_brackets_braces": true,
+	"match_brackets_content": true,
+	"match_brackets_square": true,
+	"new_window_settings":
+	{
+		"hide_open_files": true,
+		"show_tabs": true,
+		"side_bar_visible": true,
+		"status_bar_visible": true
+	},
+	"remember_open_files": true,
+	"remember_open_folders": true,
+	"save_on_focus_lost": true,
+	"scroll_past_end": false,
+	"show_full_path": true,
+	"show_minimap": false,
+	"tab_size": 2,
+	"theme": "Flatland Dark.sublime-theme",
+	"translate_tabs_to_spaces": true,
+	"trim_trailing_white_space_on_save": true,
+	"use_simple_full_screen": true,
+	"vintage_start_in_command_mode": false,
+	"wide_caret": true,
+	"word_wrap": true
+}
+
+
+An
+{
+    "python_interpreter":"C:/Users/wind/AppData/Local/Programs/Python/Python37/python.exe",
+
+    //忽略各种空格不对, 超过79字, import的函数没有使用的提醒,
+    "pep8_ignore": ["E501", "W292", "E303", "W391", "E225", "E302", "W293", "E402"],
+    "pyflakes_explicit_ignore":
+    [
+        "UnusedImport"
+    ],
+
+
+    // 自动补全
+    "suppress_word_completions":true,
+    "suppress_explicit_completions":true,
+    "comlete_parameters":true,
+
+    "swallow_startup_errors":true,
+    "anaconda_linting":false,
+    // 保存文件后自动pep8格式化
+    "auto_formatting": true,
+    "auto_formatting_timeout": 5,
+    // 库函数的提示
+    "enable_signatures_tooltip": true,
+    "merge_signatures_and_doc":true,
+}
+
+
+
+
+[
+    {
+    "keys": ["f5"],
+    "caption": "SublimeREPL: Python - RUN current file",
+    "command": "run_existing_window_command",
+    "args": {
+        "id": "repl_python_run",
+        "file": "config/Python/Main.sublime-menu"}
+    },
+    {
+    "keys": ["f8"],
+    "caption": "SublimeREPL: Python - PDB current file",
+    "command": "run_existing_window_command",
+    "args": {
+        "id": "repl_python_pdb",
+        "file": "config/Python/Main.sublime-menu"}
+    },
+
+]
+
+
+
+{
+  "target": "run_existing_window_command",
+  "id": "repl_python_run",
+  "file": "config/Python/Main.sublime-menu"
+
+}
+
+{
+	"cmd": ["C:/Users/wind/AppData/Local/Programs/Python/Python37/python.exe", "-u", "$file"],
+	"file_regex": "^[ ]*File \"(...*?)\", line ([0-9]*)",
+	"selector": "source.python",
+}
+
+
+
